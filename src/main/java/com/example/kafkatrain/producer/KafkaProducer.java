@@ -14,6 +14,6 @@ public class KafkaProducer {
 
     public void sendMessage(String msg){
         log.info("Sending msg to Topic tomek");
-        kafkaTemplate.send("tomek", msg);
+        kafkaTemplate.send("mytest", msg);
     }
 }
